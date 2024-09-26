@@ -1,0 +1,48 @@
+
+footer {
+    background-color: #59009A;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.footer-container {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-item span {
+    margin-bottom: 5px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos a {
+    margin: 0 10px;
+}
+
+.iconos img {
+    width: 24px;
+    height: 24px;
+}
+
+.quienes-somos {
+    align-self: center;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: auto;
+}
